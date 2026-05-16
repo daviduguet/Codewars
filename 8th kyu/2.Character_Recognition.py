@@ -12,3 +12,12 @@ I is misinterpreted as 1
 The test cases contain numbers only by mistake.
 """
 
+def correct(text):
+    
+    new_text = text.replace("5", "S").replace( "0", "O").replace("1", "I")
+    
+    return new_text
+
+texto = "Hola 5andm0n"
+
+print(correct(texto))
