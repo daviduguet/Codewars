@@ -7,6 +7,12 @@ If the string's length is even, return the middle 2 characters.
 """
 
 def get_middle(word):
-    length_word = len(word)
-    if length_word % 2 != 0:
-        return 
+    medio = len(word) // 2
+    if len(word) % 2 == 0:
+        return word[medio - 1] + word[medio]
+    else:
+        return word[medio]
+    
+palabra = "Davida"
+
+print(get_middle(palabra))
