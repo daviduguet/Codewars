@@ -12,4 +12,4 @@ def bool_to_word(boolean):
 
 acierto = True
 
-print(bool_to_woord(acierto))
+print(bool_to_word(acierto))
